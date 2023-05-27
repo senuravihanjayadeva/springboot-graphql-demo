@@ -10,7 +10,7 @@ type Customer {
 }
 
 type Query{
-    customer: [Customer]!
+    customers: [Customer]!
     customerById(id: ID): Customer
     customerByEmail(email: String): Customer
 }

@@ -19,11 +19,11 @@ public class Customer {
     private String phoneNumber;
     @Column(name="ADDRESS")
     private String address;
-    @Column(name="CITTY")
+    @Column(name="CITY")
     private String citiy;
     @Column(name="STATE")
     private String state;
-    @Column(name="ZIPCCODE")
+    @Column(name="ZIPCODE")
     private String zipCode;
 
     public Customer() {
